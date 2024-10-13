@@ -1,5 +1,6 @@
-        
-<h1 align="center" style="font-weight: bold;">Peopletakemyleaves.uk.to</h1>
+![peopletakemyleaves.uk.to](https://socialify.git.ci/LucasoDevDotTk/peopletakemyleaves.uk.to/image?description=1&descriptionEditable=People%20take%20my%20leaves%20all%20the%20time%2C%20so%20I%20made%20this.%20&font=Inter&issues=1&name=1&owner=1&pattern=Signal&pulls=1&theme=Auto)
+
+<h1 align="center" style="font-weight: bold;">peopletakemyleaves.uk.to</h1>
 
 <p align="center">
 <a href="#overview">Overview</a>
@@ -14,7 +15,13 @@
 
 <h2 id="overview">📚 Overview</h2>
 
-As if 2024, at my school we have a system we call Montessori 2.0 which follows the Montessori method of education. A part of this system is a knowledge tree (no: "Kunnskapstreet"), which, in simple terms, is based on that pupils get to choose what learning goal they want to learn within a subject. New learning goals much be chosen every 2 weeks, and if the work presented by the student is of above average (no: "over middels") quality, the student receives a leaf. WIP..
+>  **Note:** As of 2024, I attend [Akademiet Realfagsskole Drammen](https://www.akademiet.no/grunnskole/drammen/). This project? It’s totally independent and not affiliated with Akademiet. I’m just here to tell you about my *wild ride*.
+
+At my school, we’ve got this nifty system we like to call "Montessori 2.0," because why not slap a version number on everything? Naturally, this follows the Montessori method of education, but with a few changes and more standardization. This system encourages students to be independent, responsible, etc. A part of this system is a knowledge tree (no: "Kunnskapstreet"), which, in simple terms, is based on that pupils get to choose what learning goal they want to learn within a subject. New learning goals much be chosen every 2 weeks in every subject, and if the work presented by the student is of above average (no: "over middels") quality, the student receives a leaf. The leaf can be hung up on a poster on a wall as a part of a tree, your knowledge being the whole tree, every subject being a branch, and the learning goals the leaves.
+
+The problem is that the leaves, almost always, gets lost, stolen or simply... god damn disappears. This results in teachers having to use their valuable time, to cut out pieces of plastic and paper, instead of helping us students.
+
+So... naturally, I decided to make this.
 
 <h2 id="tech">💻 Technologies</h2>
 
