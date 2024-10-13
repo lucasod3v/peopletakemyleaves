@@ -2,6 +2,8 @@
 
 <h1 align="center" style="font-weight: bold;">peopletakemyleaves.uk.to</h1>
 
+> **Disclaimer**: This is a WORK IN PROGRESS project, and it is NOT finished. 
+
 <p align="center">
 <a href="#overview">Overview</a>
 <a href="#tech">Technologies</a>
