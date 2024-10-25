@@ -190,21 +190,15 @@ export default function NavbarBlack() {
 
                 <SheetContent
                     side="right"
-                    className="w-screen bg-[#101112] px-5 pt-3 border-none"
+                    className="w-screen px-5 pt-3 border-none"
                 >
                     <div className="">
                         <div className="flex items-center justify-between">
                             <Link
                                 href="#"
-                                className="flex items-center gap-2 text-lg font-semibold"
+                                className="flex items-center gap-2 text-lg font-bold"
                             >
-                                <Image
-                                    priority
-                                    src="/logo_black.svg"
-                                    alt="XcaTech Logo"
-                                    width={200}
-                                    height={200}
-                                />
+                                <p>Peopletakemyleaves.uk.to</p>
                             </Link>
                             <Button
                                 onClick={toggleMenu}
