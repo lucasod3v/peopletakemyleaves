@@ -1,6 +1,6 @@
-![peopletakemyleaves.uk.to](https://socialify.git.ci/LucasoDevDotTk/peopletakemyleaves.uk.to/image?description=1&descriptionEditable=People%20take%20my%20leaves%20all%20the%20time%2C%20so%20I%20made%20this.%20&font=Inter&issues=1&name=1&owner=1&pattern=Signal&pulls=1&theme=Auto)
+![peopletakemyleaves](https://socialify.git.ci/lucasod3v/peopletakemyleaves/image?custom_description=People+take+my+leaves+all+the+time%2C+so+I+made+this.&description=1&name=1&owner=1&tab=readme-ov-file%3Flanguage%3D1&theme=Auto)
 
-<h1 align="center" style="font-weight: bold;">peopletakemyleaves.uk.to</h1>
+<h1 align="center" style="font-weight: bold;">peopletakemyleaves</h1>
 
 > **Disclaimer**: This is a WORK IN PROGRESS project, and it is NOT finished. 
 
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-<a href="https://peopletakemyleafs.uk.to">📱 Visit this Project</a>
+<a href="https://peopletakemyleafs.lucasodev.net.eu.org">📱 Visit this Project</a>
 </p>
 
 <h2 id="overview">📚 Overview</h2>
@@ -63,7 +63,7 @@ For those who wish to contribute, please follow the documentation under:
 ```
 MIT License
 
-Copyright (c) 2024 Lucas Nguyen
+Copyright (c) 2024 Lucas Nguyen (lucasod3v) <lucas.nguyen@outlook.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -83,10 +83,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
 ```
 
 
 
 <hr>
 
-Made with ❤️ by Lucasodev
+Made with ❤️ by lucasod3v
