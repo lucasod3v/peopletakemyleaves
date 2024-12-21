@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-<a href="https://peopletakemyleafs.lucasodev.net.eu.org">📱 Visit this Project</a>
+<a href="https://peopletakemyleaves.lucasodev.net.eu.org">📱 Visit this Project</a>
 </p>
 
 <h2 id="overview">📚 Overview</h2>
