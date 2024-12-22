@@ -6,6 +6,8 @@ import Image from "next/image";
 
 import HamburgerIcon from "./icons/HamburgerIcon";
 
+import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
+
 import { cn } from "@/lib/utils";
 
 import {
@@ -32,7 +34,7 @@ import {
     SheetHeader,
     SheetTitle,
     SheetTrigger,
-} from "@/components/ui/sheet";
+} from "@/components/CustomSheet";
 
 import ContactIcon from "./icons/ContactIcon";
 
@@ -53,71 +55,18 @@ export default function NavbarBlack() {
     return (
         <nav>
             <Sheet open={menuState}>
-                <div className={`mt-3 w-full pb-2`}>
-                    <div className="flex px-5 lg:container justify-between items-center md:justify-normal">
+                <div className={`mt-5 w-full pb-2`}>
+                    <div className="flex px-5 lg:container lg:mx-auto justify-between items-center md:justify-normal">
                         <Link href="/" passHref>
-                            <div className="flex space-x-2 items-center font-bold">
-                                Peopletakemyleaves.uk.to
+                            <div className="items-center font-bold">
+                                <p>Peopletakemyleaves</p>
+                                <p className="font-normal text-sm">.uk.to</p>
                             </div>
                         </Link>
 
                         <div className="mx-auto hidden md:block">
                             <NavigationMenu>
                                 <NavigationMenuList className="text-black">
-                                    <NavigationMenuItem>
-                                        <NavigationMenuTrigger>
-                                            XcaPilot
-                                        </NavigationMenuTrigger>
-                                        <NavigationMenuContent>
-                                            <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                                                <li className="row-span-3">
-                                                    <NavigationMenuLink asChild>
-                                                        <a
-                                                            className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                                                            href="/"
-                                                        >
-                                                            <div className="mb-2 mt-4 text-lg font-medium">
-                                                                XcaPilot
-                                                            </div>
-                                                            <p className="text-sm leading-tight text-muted-foreground">
-                                                                Beautifully
-                                                                designed
-                                                                components that
-                                                                you can copy and
-                                                                paste into your
-                                                                apps.
-                                                                Accessible.
-                                                                Customizable.
-                                                                Open Source.
-                                                            </p>
-                                                        </a>
-                                                    </NavigationMenuLink>
-                                                </li>
-                                                <ListItem
-                                                    href="/docs"
-                                                    title="Technologies"
-                                                >
-                                                    Re-usable components built
-                                                    using Radix UI and Tailwind
-                                                    CSS.
-                                                </ListItem>
-                                                <ListItem
-                                                    href="/docs/installation"
-                                                    title="Features"
-                                                >
-                                                    How to install dependencies
-                                                    and structure your app.
-                                                </ListItem>
-                                                <ListItem
-                                                    href="/docs/primitives/typography"
-                                                    title="Timeline"
-                                                >
-                                                    Styles for headings,
-                                                    paragraphs, lists...etc
-                                                </ListItem>
-                                            </ul>
-                                        </NavigationMenuContent>
-                                    </NavigationMenuItem>
                                     <NavigationMenuItem>
                                         <Link
                                             href="/preview"
@@ -127,7 +76,7 @@ export default function NavbarBlack() {
                                             <NavigationMenuLink
                                                 className={navigationMenuTriggerStyle()}
                                             >
-                                                Preview
+                                                Blog
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
@@ -140,7 +89,7 @@ export default function NavbarBlack() {
                                             <NavigationMenuLink
                                                 className={navigationMenuTriggerStyle()}
                                             >
-                                                About us
+                                                Documentation
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
@@ -162,11 +111,10 @@ export default function NavbarBlack() {
                         </div>
 
                         <Button
-                            variant="secondary"
+                            variant="default"
                             className="font-mono hidden md:flex space-x-2"
                         >
-                            <ContactIcon color="white"></ContactIcon>
-                            <p>Contact us</p>
+                            <p>Dashboard</p>
                         </Button>
 
                         <div className="md:hidden flex items-center">
@@ -192,6 +140,11 @@ export default function NavbarBlack() {
                     side="right"
                     className="w-screen px-5 pt-3 border-none"
                 >
+                    <SheetTitle>
+                        <VisuallyHidden.Root>
+                            Navbar menu sheet
+                        </VisuallyHidden.Root>
+                    </SheetTitle>
                     <div className="">
                         <div className="flex items-center justify-between">
                             <Link
@@ -216,42 +169,23 @@ export default function NavbarBlack() {
                         </div>
 
                         <div className="grid text-sm text-black mr-4 mt-5">
-                            <Accordion type="single" collapsible>
-                                <AccordionItem
-                                    value="item-1"
-                                    className="border-y border-y-[#FFFFFF]/10"
-                                >
-                                    <AccordionTrigger className="py-2">
-                                        XcaPilot
-                                    </AccordionTrigger>
-                                    <AccordionContent>
-                                        <ul>
-                                            <li>Link 1</li>
-                                            <li>Link 1</li>
-                                            <li>Link 1</li>
-                                            <li>Link 1</li>
-                                            <li>Link 1</li>
-                                        </ul>
-                                    </AccordionContent>
-                                </AccordionItem>
-                            </Accordion>
                             <Link
                                 href="#"
                                 className="border-b border-b-[#FFFFFF]/10 py-2"
                             >
-                                Preview
+                                Blog
                             </Link>
                             <Link
                                 href="#"
                                 className="border-b border-b-[#FFFFFF]/10 py-2"
                             >
-                                About us
+                                Documentation
                             </Link>
                             <Link
                                 href="#"
                                 className="border-b border-b-[#FFFFFF]/10 py-2"
                             >
-                                Jobs!
+                                Sponsor!
                             </Link>
                         </div>
                     </div>
