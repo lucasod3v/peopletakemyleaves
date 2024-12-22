@@ -59,8 +59,10 @@ export default function NavbarBlack() {
                     <div className="flex px-5 lg:container lg:mx-auto justify-between items-center md:justify-normal">
                         <Link href="/" passHref>
                             <div className="items-center font-bold">
+                                <p className="font-normal text-sm">
+                                    lucasod3v/
+                                </p>
                                 <p>Peopletakemyleaves</p>
-                                <p className="font-normal text-sm">.uk.to</p>
                             </div>
                         </Link>
 
@@ -68,11 +70,7 @@ export default function NavbarBlack() {
                             <NavigationMenu>
                                 <NavigationMenuList className="text-black">
                                     <NavigationMenuItem>
-                                        <Link
-                                            href="/"
-                                            legacyBehavior
-                                            passHref
-                                        >
+                                        <Link href="/" legacyBehavior passHref>
                                             <NavigationMenuLink
                                                 className={navigationMenuTriggerStyle()}
                                             >
@@ -151,7 +149,12 @@ export default function NavbarBlack() {
                                 href="#"
                                 className="flex items-center gap-2 text-lg font-bold"
                             >
-                                <p>Peopletakemyleaves.uk.to</p>
+                                <div className="items-center font-bold">
+                                    <p className="font-normal text-sm">
+                                        lucasod3v/
+                                    </p>
+                                    <p>Peopletakemyleaves</p>
+                                </div>
                             </Link>
                             <Button
                                 onClick={toggleMenu}
