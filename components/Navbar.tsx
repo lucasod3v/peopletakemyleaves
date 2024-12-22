@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 import HamburgerIcon from "./icons/HamburgerIcon";
 
@@ -12,31 +11,18 @@ import { cn } from "@/lib/utils";
 
 import {
     NavigationMenu,
-    NavigationMenuContent,
     NavigationMenuItem,
     NavigationMenuLink,
     NavigationMenuList,
-    NavigationMenuTrigger,
     navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
 import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from "@/components/ui/accordion";
-
-import {
     Sheet,
     SheetContent,
-    SheetDescription,
-    SheetHeader,
     SheetTitle,
     SheetTrigger,
 } from "@/components/CustomSheet";
-
-import ContactIcon from "./icons/ContactIcon";
 
 import CloseCross from "./icons/CloseCross";
 
@@ -45,7 +31,7 @@ import { Button } from "./ui/button";
 import { useState } from "react";
 
 export default function NavbarBlack() {
-    let [menuState, setMenuState] = useState(false);
+    const [menuState, setMenuState] = useState(false);
 
     const toggleMenu = () => {
         setMenuState(!menuState);

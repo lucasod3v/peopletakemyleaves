@@ -41,21 +41,22 @@ export default function Home() {
 
                     <p>
                         At my school, we’ve got this nifty system we like to
-                        call "Montessori 2.0," because why not slap a version
-                        number on everything? Naturally, this follows the
-                        Montessori method of education, but with a few changes
-                        and more standardization. This system encourages
+                        call Montessori 2.0,&quot; because why not slap a
+                        version number on everything? Naturally, this follows
+                        the Montessori method of education, but with a few
+                        changes and more standardization. This system encourages
                         students to be independent, responsible, etc. A part of
-                        this system is a knowledge tree (no: "Kunnskapstreet"),
-                        which, in simple terms, is based on that pupils get to
-                        choose what learning goal they want to learn within a
-                        subject. New learning goals must be chosen every 2 weeks
-                        in every subject, and if the work presented by the
-                        student is of above average (no: "over middels")
-                        quality, the student receives a leaf. The leaf can be
-                        hung up on a poster on a wall as a part of a tree, your
-                        knowledge being the whole tree, every subject being a
-                        branch, and the learning goals the leaves.
+                        this system is a knowledge tree (no:
+                        &quot;Kunnskapstreet&quot;), which, in simple terms, is
+                        based on that pupils get to choose what learning goal
+                        they want to learn within a subject. New learning goals
+                        must be chosen every 2 weeks in every subject, and if
+                        the work presented by the student is of above average
+                        (no: &quot;over middels&quot;) quality, the student
+                        receives a leaf. The leaf can be hung up on a poster on
+                        a wall as a part of a tree, your knowledge being the
+                        whole tree, every subject being a branch, and the
+                        learning goals the leaves.
                     </p>
 
                     <p>
