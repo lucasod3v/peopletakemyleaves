@@ -70,11 +70,11 @@ export default function NavbarBlack() {
                             <NavigationMenu>
                                 <NavigationMenuList className="text-black">
                                     <NavigationMenuItem>
-                                        <Link href="/" legacyBehavior passHref>
+                                        <Link href="/blog/timeline" legacyBehavior passHref>
                                             <NavigationMenuLink
                                                 className={navigationMenuTriggerStyle()}
                                             >
-                                                Blog
+                                                Timeline
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
@@ -173,10 +173,10 @@ export default function NavbarBlack() {
 
                         <div className="grid text-sm text-black mt-5">
                             <Link
-                                href="/"
+                                href="/blog/timeline"
                                 className="border-b border-b-[#FFFFFF]/10 py-2"
                             >
-                                Blog
+                                Timeline
                             </Link>
                             <Link
                                 href="/docs"

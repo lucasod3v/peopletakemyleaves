@@ -19,9 +19,9 @@ export default function Home() {
                     Create, manage and save your own learning goals with ease.
                 </p>
                 <div className="space-x-5 font-mono mt-10">
-                    <Button className="space-x-2">Get started</Button>
+                    <Button className="space-x-2">GitHub</Button>
                     <Button asChild className="space-x-2" variant={"secondary"}>
-                        <Link href="#overview">Overview</Link>
+                        <Link href="/blog/timeline">Development timeline</Link>
                     </Button>
                 </div>
             </div>
