@@ -13,13 +13,16 @@ export default function Home() {
                     Create, manage and save your own learning goals with ease.
                 </p>
                 <div className="space-x-5 font-mono mt-10">
-                    <Button className="space-x-2">Sign up</Button>
-                    <Button className="space-x-2" variant={"secondary"}>Why?</Button>
+                    <Button className="space-x-2">Get started</Button>
+                    <Button className="space-x-2" variant={"secondary"}>Features</Button>
                 </div>
             </div>
 
             <div className="lg:container lg:mx-auto px-5 mt-20">
-                <h2 className="text-2xl font-bold">Why?</h2>
+                <h2 className="text-2xl font-bold">Features</h2>
+                <article className="prose">
+
+                </article>
             </div>
         </main>
     );
