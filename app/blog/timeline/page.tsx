@@ -55,7 +55,7 @@ export default function Timeline() {
                             <strong>January-February 2024:</strong> Basic functionalities development.
                         </li>
                         <li>
-                            <strong>March-April:</strong> Nice to have features developement.
+                            <strong>March-April:</strong> Nice-to-have features developement.
                         </li>
                         <li>
                             <strong>May 2024:</strong> Testing and feedback
