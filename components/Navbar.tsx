@@ -160,7 +160,7 @@ export default function NavbarBlack() {
                                 onClick={toggleMenu}
                                 variant="ghost"
                                 size="icon"
-                                className="hover:bg-[#000000]/0 mr-4"
+                                className="hover:bg-[#000000]/0"
                             >
                                 <CloseCross
                                     width={20}
@@ -171,7 +171,7 @@ export default function NavbarBlack() {
                             <span className="sr-only">Close</span>
                         </div>
 
-                        <div className="grid text-sm text-black mr-4 mt-5">
+                        <div className="grid text-sm text-black mt-5">
                             <Link
                                 href="/"
                                 className="border-b border-b-[#FFFFFF]/10 py-2"
@@ -190,6 +190,20 @@ export default function NavbarBlack() {
                             >
                                 Feedback
                             </Link>
+                            <div className="flex my-2 w-full space-x-2">
+                                <Button
+                                    variant="secondary"
+                                    className="font-mono flex  w-full"
+                                >
+                                    <p>Sign in</p>
+                                </Button>
+                                <Button
+                                    variant="default"
+                                    className="font-mono flex w-full"
+                                >
+                                    <p>Get started</p>
+                                </Button>
+                            </div>
                         </div>
                     </div>
                 </SheetContent>
