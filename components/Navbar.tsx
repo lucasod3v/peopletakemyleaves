@@ -69,7 +69,7 @@ export default function NavbarBlack() {
                                 <NavigationMenuList className="text-black">
                                     <NavigationMenuItem>
                                         <Link
-                                            href="/preview"
+                                            href="/"
                                             legacyBehavior
                                             passHref
                                         >
@@ -82,7 +82,7 @@ export default function NavbarBlack() {
                                     </NavigationMenuItem>
                                     <NavigationMenuItem>
                                         <Link
-                                            href="/about-us"
+                                            href="/docs"
                                             legacyBehavior
                                             passHref
                                         >
@@ -95,14 +95,14 @@ export default function NavbarBlack() {
                                     </NavigationMenuItem>
                                     <NavigationMenuItem>
                                         <Link
-                                            href="/sponsor"
+                                            href="/feedback"
                                             legacyBehavior
                                             passHref
                                         >
                                             <NavigationMenuLink
                                                 className={navigationMenuTriggerStyle()}
                                             >
-                                                Sponsor!
+                                                Feedback
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
@@ -170,22 +170,22 @@ export default function NavbarBlack() {
 
                         <div className="grid text-sm text-black mr-4 mt-5">
                             <Link
-                                href="#"
+                                href="/"
                                 className="border-b border-b-[#FFFFFF]/10 py-2"
                             >
                                 Blog
                             </Link>
                             <Link
-                                href="#"
+                                href="/docs"
                                 className="border-b border-b-[#FFFFFF]/10 py-2"
                             >
                                 Documentation
                             </Link>
                             <Link
-                                href="#"
+                                href="/feedback"
                                 className="border-b border-b-[#FFFFFF]/10 py-2"
                             >
-                                Sponsor!
+                                Feedback
                             </Link>
                         </div>
                     </div>
