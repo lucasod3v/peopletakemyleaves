@@ -2,10 +2,6 @@ import "./globals.css";
 
 import {
     ClerkProvider,
-    SignInButton,
-    SignedIn,
-    SignedOut,
-    UserButton,
 } from "@clerk/nextjs";
 
 import { GeistSans } from "geist/font/sans";
