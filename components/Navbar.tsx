@@ -95,10 +95,11 @@ export default function NavbarBlack() {
                         </div>
 
                         <Button
+                            asChild
                             variant="default"
                             className="font-mono hidden md:flex space-x-2"
                         >
-                            <p>Dashboard</p>
+                            <Link href="/dashboard">Dashboard</Link>
                         </Button>
 
                         <div className="md:hidden flex items-center">
@@ -178,16 +179,18 @@ export default function NavbarBlack() {
                             </Link>
                             <div className="flex my-2 w-full space-x-2">
                                 <Button
+                                    asChild
                                     variant="secondary"
                                     className="font-mono flex  w-full"
                                 >
-                                    <p>Sign in</p>
+                                    <Link href="/dashboard">Sign in</Link>
                                 </Button>
                                 <Button
+                                    asChild
                                     variant="default"
                                     className="font-mono flex w-full"
                                 >
-                                    <p>Get started</p>
+                                    <Link href="/dashboard">Get started</Link>
                                 </Button>
                             </div>
                         </div>
