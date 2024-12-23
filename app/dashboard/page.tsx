@@ -3,8 +3,6 @@
 // Local imports
 import Alert from "@/components/Alert";
 
-import { UserButton } from "@clerk/nextjs";
-
 export default function Home() {
     return (
         <main>
