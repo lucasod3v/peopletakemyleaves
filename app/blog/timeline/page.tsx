@@ -25,7 +25,7 @@ export default function Timeline() {
                         </Link>
                     </Button>
                     <Button asChild className="space-x-2" variant={"secondary"}>
-                        <Link href="/blog/timeline">Development timeline</Link>
+                        <Link href="/">Home</Link>
                     </Button>
                 </div>
             </div>
