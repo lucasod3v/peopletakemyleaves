@@ -4,7 +4,6 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
@@ -24,7 +23,7 @@ export default function Dashboard() {
                 <Link href="">
                     <Card>
                         <CardHeader>
-                            <CardTitle>{user?.firstName}'s tree</CardTitle>
+                            <CardTitle>{user?.firstName}’s tree</CardTitle>
                             <CardDescription>
                                 Default self-assigned tree
                             </CardDescription>
