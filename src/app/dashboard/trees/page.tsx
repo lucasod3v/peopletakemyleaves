@@ -1,7 +1,7 @@
 "use client";
 
 
-export default function Home() {
+export default function Site() {
     return (
         <main>
             

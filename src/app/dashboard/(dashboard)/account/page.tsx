@@ -1,7 +1,7 @@
 "use client";
 
 
-export default function Home() {
+export default function Account() {
     return (
         <main>
             
