@@ -9,11 +9,11 @@ export default async function Layout({
 }) {
     
     const links = [
-        { name: "Sites", href: "/dashboard/sites" },
+        { name: "Sites", href: "/dashboard" },
         { name: "Account settings", href: "/dashboard/account-setting" },
     ];
 
-    const currentPage = "/dashboard/sites";
+    const currentPage = "/dashboard";
     return (
         <main className="font-sans">
             <Navbar></Navbar>

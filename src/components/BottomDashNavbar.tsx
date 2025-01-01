@@ -11,12 +11,12 @@ interface BottomDashNavbarProps {
 
 export default function BottomDashNavbar({ links, currentPage }: BottomDashNavbarProps) {
   return (
-    <div className="border-b border-border">
-      <div className="lg:container p-5 pb-0">
+    <div className="lg:container lg:mx-auto p-5">
+      <div className="border-b border-border">
         {links.map((link) => (
           <Button
             key={link.href}
-            className={`rounded-none ${currentPage === link.href ? "border-b border-grey-100" : "hover:border-b border-grey-100"}`}
+            className={`rounded-none ${currentPage === link.href ? "border-b border-grey-100": "border-none"}`}
             variant="ghost"
             asChild
           >
