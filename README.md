@@ -32,8 +32,7 @@ So... naturally, I decided to make this.
 - ShadCN UI
 - Clerk Authentication
 - Postgres
-- Prisma
-- tRPC
+- Drizzle
   
 <h2 id="started">🚀 Getting started</h2>
  
