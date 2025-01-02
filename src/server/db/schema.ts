@@ -14,6 +14,7 @@ import {
 // Users table
 export const users = pgTable("users", {
   id: integer("id").primaryKey().generatedByDefaultAsIdentity(),
+  clerkUserId: integer("clerk_user_id").notNull(),
   email: varchar("email", { length: 256 }).notNull().unique(),
   name: varchar("name", { length: 256 }).notNull(),
   canCreateOrganization: boolean("can_create_organization").default(false).notNull(),
