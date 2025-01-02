@@ -12,6 +12,7 @@ import Link from "next/link";
 
 import { useUser } from "@clerk/nextjs";
 
+// Local imports
 import Leaf from "@/components/icons/Leaf";
 
 export default function Dashboard() {
