@@ -9,6 +9,7 @@ export default function Account() {
     );
 }
 
+// "use server";
 // import { db } from "@/server/db";
 
 // export default async function Account() {
