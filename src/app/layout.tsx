@@ -1,4 +1,5 @@
 import "./globals.css";
+import UnderConstructionDiag from "@/components/UnderConstructionDiag";
 
 import {
     ClerkProvider,
@@ -20,6 +21,7 @@ export default function RootLayout({
             >
                 <body>{children}</body>
             </html>
+            <UnderConstructionDiag></UnderConstructionDiag>
         </ClerkProvider>
     );
 }
