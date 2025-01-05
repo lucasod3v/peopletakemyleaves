@@ -1,14 +1,11 @@
 import { sql } from "drizzle-orm";
 import {
-  index,
   integer,
   pgTable,
   timestamp,
   varchar,
   text,
   boolean,
-  foreignKey,
-  uniqueIndex,
 } from "drizzle-orm/pg-core";
 
 // Users table

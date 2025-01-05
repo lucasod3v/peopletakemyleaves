@@ -1,6 +1,6 @@
 import "server-only";
 import { db } from "@/server/db";
-import { User, UserJSON, WebhookEvent } from "@clerk/nextjs/server";
+import { UserJSON, WebhookEvent } from "@clerk/nextjs/server";
 import { users } from "./db/schema";
 import { eq } from "drizzle-orm";
 
